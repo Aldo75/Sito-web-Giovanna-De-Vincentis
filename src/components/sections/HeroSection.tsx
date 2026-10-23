@@ -1,4 +1,5 @@
 import React from 'react';
+import { asset } from '@/src/lib/asset';
 import { Signature } from '@/src/components/ui/Signature';
 import { motion } from 'motion/react';
 
@@ -29,7 +30,7 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
           >
             <div className="relative w-full max-w-md lg:max-w-lg flex justify-center">
               <img
-                src="/GIOVANNA DE VINCENTIS senza sfondo.png"
+                src={asset("/GIOVANNA DE VINCENTIS senza sfondo.png")}
                 alt="Chef Giovanna De Vincentis"
                 className="w-auto max-h-[500px] sm:max-h-[580px] lg:max-h-[640px] object-contain drop-shadow-sm"
               />

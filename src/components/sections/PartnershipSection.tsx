@@ -1,4 +1,5 @@
 import React from 'react';
+import { asset } from '@/src/lib/asset';
 import { motion } from 'motion/react';
 
 interface PartnerItem {
@@ -59,7 +60,7 @@ export const PartnershipSection: React.FC = () => {
             >
               {/* Logo nei suoi colori originali naturali */}
               <img
-                src={`/${logo.filename}`}
+                src={asset(`/${logo.filename}`)}
                 alt={logo.name}
                 loading="eager"
                 className="max-h-16 max-w-full w-auto object-contain"

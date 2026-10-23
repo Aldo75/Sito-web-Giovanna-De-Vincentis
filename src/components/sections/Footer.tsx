@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { asset } from '@/src/lib/asset';
 import { Locale, footerContent } from '@/src/data/content';
 import { OfficialLogo } from '@/src/components/ui/OfficialLogo';
 import { Phone, Mail, MapPin, Send, Instagram, Facebook, Youtube, Linkedin, CheckCircle2 } from 'lucide-react';
@@ -40,7 +41,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLocale }) => {
             <a href="#home" className="inline-block group" title="Gio Events and More">
               <div className="py-1">
                 <img
-                  src="/logo_oro_page-0001 (1)-Photoroom.png"
+                  src={asset("/logo_oro_page-0001 (1)-Photoroom.png")}
                   alt="Gio Events and More"
                   className="h-20 sm:h-24 w-auto object-contain"
                 />

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { asset } from '@/src/lib/asset';
 import { Locale, navItems } from '@/src/data/content';
 import { Menu, X } from 'lucide-react';
 
@@ -27,12 +28,12 @@ export const Header: React.FC<HeaderProps> = ({ currentLocale, onLocaleChange })
               title="Gio Events and More - Chef Giovanna De Vincentis"
             >
               <img
-                src="/logo_gold_trim.png"
+                src={asset("/logo_gold_trim.png")}
                 alt="Gio Events and More"
                 className="h-12 sm:h-14 md:h-16 w-auto object-contain"
               />
               <img
-                src="/scritta_logo_vector.png"
+                src={asset("/scritta_logo_vector.png")}
                 alt=""
                 className="ml-3 sm:ml-4 h-4 sm:h-5 md:h-6 w-auto object-contain"
               />

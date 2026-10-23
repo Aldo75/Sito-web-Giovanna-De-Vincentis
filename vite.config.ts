@@ -26,8 +26,10 @@ function partnerLogosPlugin(): Plugin {
   };
 }
 
-export default defineConfig(() => {
+export default defineConfig(({ command }) => {
   return {
+    // In produzione il sito vive su GitHub Pages: https://aldo75.github.io/Sito-web-Giovanna-De-Vincentis/
+    base: command === 'build' ? '/Sito-web-Giovanna-De-Vincentis/' : '/',
     plugins: [react(), tailwindcss(), partnerLogosPlugin()],
     resolve: {
       alias: {

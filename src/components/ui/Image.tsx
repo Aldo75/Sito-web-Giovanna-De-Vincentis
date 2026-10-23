@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { asset } from '@/src/lib/asset';
 
 export interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   src: string;
@@ -31,7 +32,7 @@ export const Image: React.FC<ImageProps> = ({
   const [isLoaded, setIsLoaded] = useState(false);
 
   // If local file fails to load or hasn't been mounted yet, fallback gracefully
-  const effectiveSrc = hasError && fallbackSrc ? fallbackSrc : src;
+  const effectiveSrc = hasError && fallbackSrc ? fallbackSrc : asset(src);
 
   const style: React.CSSProperties = fill
     ? {
