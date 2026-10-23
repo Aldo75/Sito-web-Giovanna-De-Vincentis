@@ -52,7 +52,7 @@ export const PastrySection: React.FC<PastrySectionProps> = ({ currentLocale }) =
             >
               <div className="relative h-72 w-full overflow-hidden bg-[#26221E]">
                 <Image
-                  src={`/${card.file}`}
+                  src={card.file.startsWith('http') ? card.file : `/${card.file}`}
                   fallbackSrc={card.fallback}
                   alt={card.title}
                   fill
