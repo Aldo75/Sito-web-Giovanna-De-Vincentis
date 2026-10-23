@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+      <rect width="240" height="100" fill="none"/>
+      <!-- Sourdough & Wheat -->
+      <path d="M 35 60 C 35 40, 65 40, 65 60 Z" fill="#C5A059" stroke="#8E6A29" stroke-width="2"/>
+      <path d="M 45 42 L 55 58 M 55 42 L 45 58" stroke="#FFFFFF" stroke-width="1.5"/>
+      <path d="M 30 65 L 70 65" stroke="#8E6A29" stroke-width="2"/>
+      <text x="86" y="42" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="bold" fill="#8E6A29">MAESTRI DEL</text>
+      <text x="86" y="60" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="bold" fill="#C5A059">LIEVITO MADRE</text>
+      <text x="86" y="74" font-family="'Montserrat', sans-serif" font-size="8" font-weight="600" fill="#555555">GRAN LIEVITATI D’AUTORE</text>
+    </svg>

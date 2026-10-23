@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+      <rect width="240" height="100" fill="none"/>
+      <!-- Abruzzo Coat of Arms -->
+      <rect x="36" y="24" width="30" height="48" rx="6" fill="#FFFFFF" stroke="#C5A059" stroke-width="2"/>
+      <path d="M 37 25 L 65 25 L 37 45 Z" fill="#FFFFFF"/>
+      <path d="M 37 45 L 65 25 L 65 55 L 37 71 Z" fill="#2E7D32"/>
+      <path d="M 37 71 L 65 55 L 65 71 Z" fill="#0D47A1"/>
+      <text x="84" y="44" font-family="'Montserrat', sans-serif" font-size="15" font-weight="800" fill="#0D47A1" letter-spacing="1.5">REGIONE</text>
+      <text x="84" y="64" font-family="'Montserrat', sans-serif" font-size="17" font-weight="900" fill="#2E7D32" letter-spacing="2">ABRUZZO</text>
+      <text x="84" y="78" font-family="'Montserrat', sans-serif" font-size="8" font-weight="600" fill="#C5A059" letter-spacing="1.5">TERRA DEI PARCHI</text>
+    </svg>

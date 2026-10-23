@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+      <rect width="240" height="100" fill="none"/>
+      <circle cx="50" cy="50" r="30" fill="none" stroke="#C5A059" stroke-width="2"/>
+      <circle cx="50" cy="50" r="24" fill="#0D47A1"/>
+      <text x="50" y="55" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">AIC</text>
+      <text x="90" y="42" font-family="'Montserrat', sans-serif" font-size="12" font-weight="800" fill="#0D47A1">ACCADEMIA ITALIANA</text>
+      <text x="90" y="58" font-family="'Montserrat', sans-serif" font-size="12" font-weight="800" fill="#C5A059">DELLA CUCINA</text>
+      <text x="90" y="72" font-family="'Montserrat', sans-serif" font-size="8" font-weight="600" fill="#555555">ISTITUZIONE CULTURALE</text>
+    </svg>

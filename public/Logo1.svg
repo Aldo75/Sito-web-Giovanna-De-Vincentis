@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+      <rect width="240" height="100" fill="none"/>
+      <!-- FIC Crest Shield -->
+      <path d="M 35 15 L 75 15 C 75 55, 60 75, 55 82 C 50 75, 35 55, 35 15 Z" fill="#D32F2F" stroke="#C5A059" stroke-width="3"/>
+      <path d="M 42 22 L 68 22 C 68 48, 58 65, 55 70 C 52 65, 42 48, 42 22 Z" fill="#FFFFFF"/>
+      <!-- Chef Hat Icon -->
+      <path d="M 48 45 C 44 45, 44 32, 50 32 C 52 28, 58 28, 60 32 C 66 32, 66 45, 62 45 Z" fill="#C5A059"/>
+      <rect x="48" y="45" width="14" height="6" fill="#1565C0"/>
+      <!-- Text -->
+      <text x="90" y="38" font-family="'Montserrat', system-ui, sans-serif" font-size="14" font-weight="800" fill="#1565C0" letter-spacing="1">FEDERAZIONE</text>
+      <text x="90" y="56" font-family="'Montserrat', system-ui, sans-serif" font-size="14" font-weight="800" fill="#D32F2F" letter-spacing="1">ITALIANA</text>
+      <text x="90" y="74" font-family="'Montserrat', system-ui, sans-serif" font-size="14" font-weight="800" fill="#C5A059" letter-spacing="1">CUOCHI</text>
+    </svg>

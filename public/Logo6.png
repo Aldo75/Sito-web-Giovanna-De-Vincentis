@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+      <rect width="240" height="100" fill="none"/>
+      <!-- Dolomite Crown -->
+      <path d="M 32 62 L 42 35 L 52 50 L 62 30 L 72 62 Z" fill="#C5A059" stroke="#9E7832" stroke-width="2"/>
+      <circle cx="42" cy="32" r="3" fill="#D32F2F"/>
+      <circle cx="62" cy="27" r="3" fill="#D32F2F"/>
+      <text x="88" y="40" font-family="'Playfair Display', Georgia, serif" font-size="17" font-weight="bold" fill="#0D47A1">CORTINA</text>
+      <text x="88" y="58" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#C5A059">Queen of Taste</text>
+      <text x="88" y="74" font-family="'Montserrat', sans-serif" font-size="9" font-weight="600" fill="#555555" letter-spacing="1.5">CHEF TEAM</text>
+    </svg>

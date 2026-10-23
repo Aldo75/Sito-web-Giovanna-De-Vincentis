@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #222222;
+    background-color: #FAF8F7;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-luxury {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+}
+
+/* Luxury Gold & Blush styling */
+.text-gold-luxury {
+  color: #C5A059;
+}
+
+.bg-gold-luxury {
+  background-color: #C5A059;
+}
+
+.border-gold-luxury {
+  border-color: #D4AF37;
+}
+
+.bg-rosa-vetrina {
+  background-color: #F8EDED;
+}
+
+/* Gold Gradient Accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B8860B 0%, #D4AF37 50%, #A67C1E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to right, rgba(212,175,55,0.1), rgba(212,175,55,0.8), rgba(212,175,55,0.1)) 1;
+}
+
+/* Subtle luxury shine and shadows */
+.luxury-card-shadow {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05), 0 20px 25px -15px rgba(212, 175, 55, 0.04);
+}
+
+.luxury-glow {
+  box-shadow: 0 0 35px -5px rgba(212, 175, 55, 0.2);
+}

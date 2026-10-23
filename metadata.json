@@ -1,0 +1,6 @@
+{
+  "name": "Chef Giovanna De Vincentis | Gio Events & More",
+  "description": "Sito ufficiale della Lady Chef Giovanna De Vincentis - Gio Events & More: Alta cucina, arte bianca, eventi internazionali e valorizzazione del territorio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
